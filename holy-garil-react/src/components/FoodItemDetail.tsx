@@ -4,7 +4,7 @@ import type { FoodItemDetailInfo } from "../types/food.ts";
 function FoodItemDetail({
   name,
   price,
-  calorie,
+  calories,
   description,
   pictureUrl,
 }: FoodItemDetailInfo) {
@@ -15,7 +15,7 @@ function FoodItemDetail({
         <FoodItemDescription
           name={name}
           price={price}
-          calorie={calorie}
+          calorie={calories}
           description={description}
         />
       </section>

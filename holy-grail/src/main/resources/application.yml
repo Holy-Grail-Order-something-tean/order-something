@@ -10,3 +10,6 @@ spring:
     username: ${holy-grail.datasource.username}
     password: ${holy-grail.datasource.password}
     driver-class-name: ${holy-grail.datasource.driver-class-name}
+  sql:
+    init:
+      mode: always

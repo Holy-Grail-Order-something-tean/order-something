@@ -1,0 +1,46 @@
+.categorySelector {
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: white;
+}
+
+.categorySelectorButtons {
+    display: flex;
+}
+
+.categoryButton {
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.25em;
+    cursor: pointer;
+    height: 100%;
+    padding: 10px;
+    background-color: white;
+    font-weight: 500;
+}
+
+.categoryButtonActive {
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.25em;
+    cursor: pointer;
+    height: 100%;
+    padding: 10px;
+    background-color: rgba(106, 106, 106, 0.2);
+    font-weight: 500;
+}
+
+.categoryButton:hover {
+    background-color:  rgba(106, 106, 106, 0.2);
+}
+
+.categorySelectorSeparator {
+    display: flex;
+    height: 0.25em;
+    background-color: rgba(106, 106, 106, 0.2);
+}

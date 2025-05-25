@@ -1,9 +1,9 @@
-import FoodItemMenu from "./components/FoodItemMenu";
+import Menu from "./components/Menu.tsx";
 
 function App() {
   return (
     <>
-      <FoodItemMenu />
+      <Menu />
     </>
   );
 }

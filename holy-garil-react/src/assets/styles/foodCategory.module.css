@@ -1,0 +1,14 @@
+.categorySection {
+    display: grid;
+    justify-content: center;
+    gap: 20px;
+    grid-template-columns: repeat(2, 550px);
+    margin: 0 auto;
+    padding: 20px;
+    scroll-margin-top: 50px;
+}
+
+.categorySection h2 {
+    grid-column: 1 / -1;
+    margin: 0 0 0 10px;
+}

@@ -13,7 +13,7 @@ public class FoodItem {
     private Long id;
     private String name;
     private BigDecimal price;
-    private Integer calorie;
+    private Integer calories;
     private String description;
     private String pictureUrl;
 }
